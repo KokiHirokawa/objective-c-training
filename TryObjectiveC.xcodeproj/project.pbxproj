@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8F8E2E2A77F88F00C72811 /* Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E2D2A77F88F00C72811 /* Class.m */; };
+		1D8F8E322A77FEA100C72811 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E312A77FEA100C72811 /* SubClass.m */; };
+		1D8F8E372A78189900C72811 /* Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E362A78189900C72811 /* Init.m */; };
+		1D8F8E3B2A78795E00C72811 /* Visibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E3A2A78795E00C72811 /* Visibility.m */; };
+		1D8F8E3F2A787DBB00C72811 /* ClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E3E2A787DBB00C72811 /* ClassMethod.m */; };
+		1D8F8E422A79329300C72811 /* Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E412A79329300C72811 /* Selector.m */; };
+		1D8F8E472A79366500C72811 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E462A79366500C72811 /* Category.m */; };
+		1D8F8E4A2A7937CA00C72811 /* Category+Plus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E492A7937CA00C72811 /* Category+Plus.m */; };
+		1D8F8E4D2A79398C00C72811 /* Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E4C2A79398C00C72811 /* Protocol.m */; };
+		1D8F8E542A79C8A500C72811 /* Generics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F8E532A79C8A500C72811 /* Generics.m */; };
+		1DDD43EC2A7BF4CD004DE3DF /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD43EB2A7BF4CD004DE3DF /* Property.m */; };
+		1DDD43F12A7C0709004DE3DF /* AttributesClassFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD43F02A7C0709004DE3DF /* AttributesClassFoo.m */; };
+		1DDD43F52A7C07AA004DE3DF /* AttributesClassBaz.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD43F42A7C07AA004DE3DF /* AttributesClassBaz.m */; };
 		1DFC70922A77F09500645253 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC70912A77F09500645253 /* main.swift */; };
+		1DFC709A2A77F1C400645253 /* Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC70992A77F1C400645253 /* Method.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D8F8E2C2A77F88200C72811 /* Class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Class.h; sourceTree = "<group>"; };
+		1D8F8E2D2A77F88F00C72811 /* Class.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class.m; sourceTree = "<group>"; };
+		1D8F8E312A77FEA100C72811 /* SubClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
+		1D8F8E332A77FEA800C72811 /* SubClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		1D8F8E352A78188D00C72811 /* Init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Init.h; sourceTree = "<group>"; };
+		1D8F8E362A78189900C72811 /* Init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Init.m; sourceTree = "<group>"; };
+		1D8F8E392A78794F00C72811 /* Visibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visibility.h; sourceTree = "<group>"; };
+		1D8F8E3A2A78795E00C72811 /* Visibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Visibility.m; sourceTree = "<group>"; };
+		1D8F8E3D2A787DAF00C72811 /* ClassMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassMethod.h; sourceTree = "<group>"; };
+		1D8F8E3E2A787DBB00C72811 /* ClassMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassMethod.m; sourceTree = "<group>"; };
+		1D8F8E412A79329300C72811 /* Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Selector.m; sourceTree = "<group>"; };
+		1D8F8E432A79329D00C72811 /* Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Selector.h; sourceTree = "<group>"; };
+		1D8F8E452A79365D00C72811 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		1D8F8E462A79366500C72811 /* Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		1D8F8E482A7937BB00C72811 /* Category+Plus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Category+Plus.h"; sourceTree = "<group>"; };
+		1D8F8E492A7937CA00C72811 /* Category+Plus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Category+Plus.m"; sourceTree = "<group>"; };
+		1D8F8E4C2A79398C00C72811 /* Protocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protocol.m; sourceTree = "<group>"; };
+		1D8F8E4E2A79399400C72811 /* Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
+		1D8F8E512A793FD000C72811 /* Introduction */ = {isa = PBXFileReference; lastKnownFileType = text; path = Introduction; sourceTree = "<group>"; };
+		1D8F8E532A79C8A500C72811 /* Generics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Generics.m; sourceTree = "<group>"; };
+		1D8F8E552A79C8AD00C72811 /* Generics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Generics.h; sourceTree = "<group>"; };
+		1DDD43EB2A7BF4CD004DE3DF /* Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		1DDD43ED2A7BF4E8004DE3DF /* Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		1DDD43F02A7C0709004DE3DF /* AttributesClassFoo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributesClassFoo.m; sourceTree = "<group>"; };
+		1DDD43F22A7C071A004DE3DF /* AttributesClassFoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributesClassFoo.h; sourceTree = "<group>"; };
+		1DDD43F32A7C07A2004DE3DF /* AttributesClassBaz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributesClassBaz.h; sourceTree = "<group>"; };
+		1DDD43F42A7C07AA004DE3DF /* AttributesClassBaz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributesClassBaz.m; sourceTree = "<group>"; };
 		1DFC708E2A77F09500645253 /* TryObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TryObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFC70912A77F09500645253 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1DFC70982A77F1C300645253 /* TryObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TryObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		1DFC70992A77F1C400645253 /* Method.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Method.m; sourceTree = "<group>"; };
+		1DFC709B2A77F1DD00645253 /* Method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +82,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8F8E2B2A77F87000C72811 /* 01-class */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E2C2A77F88200C72811 /* Class.h */,
+				1D8F8E2D2A77F88F00C72811 /* Class.m */,
+			);
+			path = "01-class";
+			sourceTree = "<group>";
+		};
+		1D8F8E2F2A77F9E400C72811 /* 02-method */ = {
+			isa = PBXGroup;
+			children = (
+				1DFC709B2A77F1DD00645253 /* Method.h */,
+				1DFC70992A77F1C400645253 /* Method.m */,
+			);
+			path = "02-method";
+			sourceTree = "<group>";
+		};
+		1D8F8E302A77FE8400C72811 /* 03-inherit */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E332A77FEA800C72811 /* SubClass.h */,
+				1D8F8E312A77FEA100C72811 /* SubClass.m */,
+			);
+			path = "03-inherit";
+			sourceTree = "<group>";
+		};
+		1D8F8E342A78185B00C72811 /* 04-initializer */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E352A78188D00C72811 /* Init.h */,
+				1D8F8E362A78189900C72811 /* Init.m */,
+			);
+			path = "04-initializer";
+			sourceTree = "<group>";
+		};
+		1D8F8E382A78793700C72811 /* 05-visibility */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E392A78794F00C72811 /* Visibility.h */,
+				1D8F8E3A2A78795E00C72811 /* Visibility.m */,
+			);
+			path = "05-visibility";
+			sourceTree = "<group>";
+		};
+		1D8F8E3C2A787D9900C72811 /* 06-class-method */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E3D2A787DAF00C72811 /* ClassMethod.h */,
+				1D8F8E3E2A787DBB00C72811 /* ClassMethod.m */,
+			);
+			path = "06-class-method";
+			sourceTree = "<group>";
+		};
+		1D8F8E402A79327C00C72811 /* 07-selector */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E432A79329D00C72811 /* Selector.h */,
+				1D8F8E412A79329300C72811 /* Selector.m */,
+			);
+			path = "07-selector";
+			sourceTree = "<group>";
+		};
+		1D8F8E442A79363E00C72811 /* 08-category */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E452A79365D00C72811 /* Category.h */,
+				1D8F8E462A79366500C72811 /* Category.m */,
+				1D8F8E482A7937BB00C72811 /* Category+Plus.h */,
+				1D8F8E492A7937CA00C72811 /* Category+Plus.m */,
+			);
+			path = "08-category";
+			sourceTree = "<group>";
+		};
+		1D8F8E4B2A79397500C72811 /* 09-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E4E2A79399400C72811 /* Protocol.h */,
+				1D8F8E4C2A79398C00C72811 /* Protocol.m */,
+			);
+			path = "09-protocol";
+			sourceTree = "<group>";
+		};
+		1D8F8E4F2A793F0B00C72811 /* 00-introduction */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E512A793FD000C72811 /* Introduction */,
+			);
+			path = "00-introduction";
+			sourceTree = "<group>";
+		};
+		1D8F8E522A795F5100C72811 /* 10-generics */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F8E552A79C8AD00C72811 /* Generics.h */,
+				1D8F8E532A79C8A500C72811 /* Generics.m */,
+			);
+			path = "10-generics";
+			sourceTree = "<group>";
+		};
+		1DDD43EA2A7BF4B6004DE3DF /* 11-property */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD43EB2A7BF4CD004DE3DF /* Property.m */,
+				1DDD43ED2A7BF4E8004DE3DF /* Property.h */,
+			);
+			path = "11-property";
+			sourceTree = "<group>";
+		};
+		1DDD43EE2A7C06CF004DE3DF /* 12-attributes */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD43EF2A7C06FC004DE3DF /* Class */,
+			);
+			path = "12-attributes";
+			sourceTree = "<group>";
+		};
+		1DDD43EF2A7C06FC004DE3DF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD43F22A7C071A004DE3DF /* AttributesClassFoo.h */,
+				1DDD43F02A7C0709004DE3DF /* AttributesClassFoo.m */,
+				1DDD43F32A7C07A2004DE3DF /* AttributesClassBaz.h */,
+				1DDD43F42A7C07AA004DE3DF /* AttributesClassBaz.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		1DFC70852A77F09500645253 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +229,21 @@
 		1DFC70902A77F09500645253 /* TryObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				1D8F8E4F2A793F0B00C72811 /* 00-introduction */,
+				1D8F8E2B2A77F87000C72811 /* 01-class */,
+				1D8F8E2F2A77F9E400C72811 /* 02-method */,
+				1D8F8E302A77FE8400C72811 /* 03-inherit */,
+				1D8F8E342A78185B00C72811 /* 04-initializer */,
+				1D8F8E382A78793700C72811 /* 05-visibility */,
+				1D8F8E3C2A787D9900C72811 /* 06-class-method */,
+				1D8F8E402A79327C00C72811 /* 07-selector */,
+				1D8F8E442A79363E00C72811 /* 08-category */,
+				1D8F8E4B2A79397500C72811 /* 09-protocol */,
+				1D8F8E522A795F5100C72811 /* 10-generics */,
+				1DDD43EA2A7BF4B6004DE3DF /* 11-property */,
+				1DDD43EE2A7C06CF004DE3DF /* 12-attributes */,
 				1DFC70912A77F09500645253 /* main.swift */,
+				1DFC70982A77F1C300645253 /* TryObjectiveC-Bridging-Header.h */,
 			);
 			path = TryObjectiveC;
 			sourceTree = "<group>";
@@ -94,6 +280,7 @@
 				TargetAttributes = {
 					1DFC708D2A77F09500645253 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -120,7 +307,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDD43EC2A7BF4CD004DE3DF /* Property.m in Sources */,
+				1D8F8E372A78189900C72811 /* Init.m in Sources */,
+				1DDD43F12A7C0709004DE3DF /* AttributesClassFoo.m in Sources */,
+				1D8F8E472A79366500C72811 /* Category.m in Sources */,
+				1D8F8E2E2A77F88F00C72811 /* Class.m in Sources */,
+				1D8F8E322A77FEA100C72811 /* SubClass.m in Sources */,
+				1D8F8E3F2A787DBB00C72811 /* ClassMethod.m in Sources */,
+				1D8F8E4D2A79398C00C72811 /* Protocol.m in Sources */,
+				1DFC709A2A77F1C400645253 /* Method.m in Sources */,
+				1DDD43F52A7C07AA004DE3DF /* AttributesClassBaz.m in Sources */,
 				1DFC70922A77F09500645253 /* main.swift in Sources */,
+				1D8F8E422A79329300C72811 /* Selector.m in Sources */,
+				1D8F8E542A79C8A500C72811 /* Generics.m in Sources */,
+				1D8F8E3B2A78795E00C72811 /* Visibility.m in Sources */,
+				1D8F8E4A2A7937CA00C72811 /* Category+Plus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +449,14 @@
 		1DFC70962A77F09500645253 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 26UJM648L6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TryObjectiveC/TryObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -259,10 +464,13 @@
 		1DFC70972A77F09500645253 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 26UJM648L6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TryObjectiveC/TryObjectiveC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
